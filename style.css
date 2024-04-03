@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Outfit:wght@400;600;700&family=Young+Serif&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+:root {
+  --green-color: hsl(75, 94%, 57%);
+  --White-color: hsl(0, 0%, 100%);
+  --Grey-color: hsl(0, 0%, 20%);
+  --darkGrey-color: hsl(0, 0%, 12%);
+  --offBlack-color: hsl(0, 0%, 8%);
+}
+p {
+  font-size: 14px;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--White-color);
+  background: var(--offBlack-color);
+}
+.container {
+  width: 350px;
+  height: 550px;
+  padding: 30px 25px;
+  text-align: center;
+  border-radius: 10px;
+  background: var(--darkGrey-color);
+}
+.content img {
+  width: 80px;
+  border-radius: 50%;
+}
+.content h2 {
+  padding-top: 20px;
+  font-size: 26px;
+  font-weight: 700;
+}
+.content h4 {
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 8px;
+  color: var(--green-color);
+}
+.social_links {
+  padding-top: 25px;
+  text-align: center;
+}
+.social_links p {
+  padding-bottom: 15px;
+  font-weight: 400;
+}
+.social_links ul li a {
+  display: block;
+  width: 300px;
+  padding: 10px 0;
+  background-color: var(--Grey-color);
+  color: var(--White-color);
+  font-weight: 700;
+  font-size: 15px;
+  margin: 15px 0;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.social_links ul li a:hover {
+  background: var(--green-color);
+  color: var(--offBlack-color);
+}
+.attribution {
+  margin-top: 10px;
+  font-size: 10px;
+}
+
+/* media query for mobile */
+@media screen and (max-width: 375px) {
+  .container {
+    margin-top: 35px;
+    width: 300px;
+    height: auto;
+    padding: 15px 10px;
+  }
+  .content img {
+    width: 70px;
+  }
+  .content h2 {
+    font-size: 24px;
+  }
+  .content h4 {
+    font-size: 14px;
+  }
+  .social_links p {
+    font-size: 14px;
+  }
+  .social_links ul li {
+    margin-left: 5px;
+  }
+  .social_links ul li a {
+    width: 260px;
+  }
+}
