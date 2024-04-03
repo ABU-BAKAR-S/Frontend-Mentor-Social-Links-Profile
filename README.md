@@ -16,9 +16,9 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ### Screenshot
 
-|                  Small-Screen-View                   |                         Large-Screen-View                         |
-| :--------------------------------------------------: | :---------------------------------------------------------------: |
-| <img src="./screenshots/Mobile1.png" width="250px"/> | <img src="./screenshots/desktop.png" width="350px" height="350"/> |
+|                  Small-Screen-View                   |                          Large-Screen-View                          |
+| :--------------------------------------------------: | :-----------------------------------------------------------------: |
+| <img src="./screenshots/Mobile1.png" width="250px"/> | <img src="./screenshots/Desktop.png" width="350px" height="350px"/> |
 
 ### Links
 
